@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(rgb(5, 4, 170) 0%, aliceblue 100%);
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+#startButton {
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+#status {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+#objectFoundOrNot {
+    margin-top: 25px;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#object {
+    margin-top:20px;
+    border-color: lightcoral;
+    background-color: lightskyblue;
+    color: royalblue;
+    border-radius: 4px;
+    width: 250px;
+}
+
+canvas {
+    border: 2px solid lightcoral;
+    border-radius: 14px;
+    margin-top: 140px;
+    box-shadow: 4px 4px 4px royalblue;
+}
